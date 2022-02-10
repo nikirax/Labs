@@ -172,4 +172,46 @@
 //    }
 //}
 #endregion
+#region Turple
+//using Labs;
 
+//var num = 123;
+//var result = Method().Item1 == num;
+//Console.WriteLine(result);
+//foreach(var item in Method().Item5)
+//{
+//    Console.WriteLine(item);
+//}
+//Console.WriteLine(Method().Item4.Name + " " +Method().Item4.Age);
+
+//static Tuple<int, double,string, Human, List<int>,List<string>> Method()
+//{
+//    return Tuple.Create(123, 12.2, "Text", new Human(){Name = "Nikita", Age = 17}, new List<int> { 1, 2, 5 }, new List<string> { "Nikita", "VOVA", "Nikolai" });
+//}
+#endregion
+#region Lazy
+//class Reader
+//{
+//    Lazy<Library> library = new Lazy<Library>();
+//    public void ReadBook()
+//    {
+//        library.Value.GetBook();
+//        Console.WriteLine("Читаем бумажную книгу");
+//    }
+
+//    public void ReadEbook()
+//    {
+//        Console.WriteLine("Читаем книгу на компьютере");
+//    }
+//}
+
+//class Library
+//{
+//    private string[] books = new string[99];
+
+//    public void GetBook()
+//    {
+//        Console.WriteLine("Выдаем книгу читателю");
+//    }
+//}
+#endregion
